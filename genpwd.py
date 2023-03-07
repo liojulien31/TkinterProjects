@@ -1,3 +1,4 @@
+#Python program to generate list of passwords with tkinter gui
 from tkinter import *
 import random
 
@@ -10,16 +11,20 @@ bg = PhotoImage(file = "./Icons/bulldog.png")
 # Show image using label
 label1 = Label( root, image = bg)
 label1.place(x = 0, y = 0)
+
+#function to set the length of the password
 def pwdgen():
 	global E
 	ln = E.get()
 	pwd = ""
 	i = 0
 	while i < int(ln):
+		#You can added more characters to the choice method that will return one char in each iteration
 		pwd += random.choice("abX1cX3YdefVghijklWmUnZop0qrs4tuvw2xyzABC5DEF8GHIJKLMNOPQRS9T67!=+*?#/")
 		i += 1
 	return pwd
 
+#This function will generate the total list of password and save it in an external file
 def pwdformat():
 	root.config(bg="blue")
 	global E2
@@ -39,7 +44,7 @@ def pwdformat():
 	txt = "TASK FINISHED AND "+ maxc + " PASSWORDS ARE GENERATED"
 	l3.config(text=txt)
 	
-
+#Gui components and widgets
 b = Button(root,text="GENERATEPWD",command=pwdformat)
 b.pack()
 l = Label(root,text="Enter pass length: ",fg="black", font=('Helvetica 20 bold'))
