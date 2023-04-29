@@ -1,0 +1,50 @@
+{
+  "question": [
+    "Q1. nmap target",
+    "Q2. nmap -sn target",
+    "Q3. nmap -iL ip.txtfile",
+    "Q4. nmap -D  target1 target2 ",
+    "05. nmap -v target --exclude target_to_exclude"
+  ],
+  "answer": [
+    4,
+    2,
+    5,
+    4,
+    5
+  ],
+  "options": [
+
+    ["scan an ip address with nmap",
+      "scan an ip address with tcp port",
+      "nmap no ping scan",
+      "normal scan of a single ip address",
+      "None of the above"
+    ],
+    ["nmap no ping scan",
+      "nmap tcp syn scan",
+      "nmap scan between ports",
+      "nmap fast scan on the top 100 ports",
+      "None of the above"
+    ],
+    ["scan with mtu specification",
+      "nmap tcp null scan",
+      "scan with fragmented packets",
+      "decoy scan",
+      "None of the above"
+    ],
+     ["scan with mtu specification",
+      "nmap tcp null scan",
+      "scan with fragmented packets",
+      "decoy scan",
+      "None of the above"
+    ]
+    ,
+    ["nmap scan that exclude ip address in ip.txt file list ",
+      "nmap scan a list of ip address",
+      "simple scan without port specification",
+      "nmpa live scan only and not probe for a port scan",
+      "None of the above"
+    ]
+  ]
+}

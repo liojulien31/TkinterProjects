@@ -1,0 +1,23 @@
+by from French
+This is a test
+by from by
+This is a code
+c
+c
+this is a c 
+this is a c
+by from French
+This is a test
+by from by
+This is a code
+c
+c
+this is a c 
+this is a c
+
+THIS IS A c!
+c
+c
+c c c
+
+ctrl + H to replace word in sublime text! ctrl + f to find a word! 
